@@ -9,6 +9,7 @@
 ### Association
 - has_many :posts
 - has_many :comments
+- has_many :groups through: :groups_users
 
 ## postsテーブル
 |Column|Type|Options|
@@ -35,6 +36,7 @@
 |groupname|string|null: false|
 ### Association
 - has_many :groups_users
+- has_many :users through: :groups_users
 
 ## groups_usersテーブル
 |Column|Type|Options|
