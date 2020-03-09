@@ -1,0 +1,28 @@
+.side_bar
+  .side_bar__top
+    .side_bar__top__box
+      .side_bar__top__box--name
+        name
+      %ul.side_bar__top__box--icon
+        %li.side_bar__top__box--icon__edit
+        = link_to "#" do
+          = icon('fas', 'edit')
+        %li.side_bar__top__box--icon__group
+        = link_to "#" do
+          = icon('fas', 'cog')
+  .side_bar__main
+    .side_bar__main__box
+      .side_bar__main__box--name
+        name1
+      .side_bar__main__box--comment
+        comment1
+    .side_bar__main__box
+      .side_bar__main__box--name
+        name2
+      .side_bar__main__box--comment
+        comment2
+    .side_bar__main__box
+      .side_bar__main__box--name
+        name3
+      .side_bar__main__box--comment
+        comment3
