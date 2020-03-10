@@ -44,20 +44,20 @@
   &__main {
     background-color: #2f3e51;
     height: calc(100vh - 100px);
-
     &__box {
       padding: 20px 20px 40px 20px;
-      color: #ffffff;
-      font-weight: bold;
-
-      &--name {
-        font-size: 15px;
-        margin-bottom: 5px;
+      a {
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration: none;
+        &--name {
+          font-size: 15px;
+          margin-bottom: 5px;
+        }
+        &--comment {
+          font-size: 11px;
+        }   
       }
-
-      &--comment {
-        font-size: 11px;
-      }   
     }
   }   
 }
