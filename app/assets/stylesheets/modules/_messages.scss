@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+.wrapper{
+  position: fixed;
+}
 .side_bar {
   width: 300px;
   height: 100vh;
