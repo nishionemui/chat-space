@@ -47,6 +47,7 @@
   .side_bar__main {
     background-color: #2f3e51;
     height: calc(100vh - 100px);
+    overflow: scroll;
     &__box {
       padding: 20px 20px 40px 20px;
       a {
